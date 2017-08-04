@@ -7,7 +7,7 @@
     "e2e": "nightwatch",
     "test": "./node_modules/.bin/concurrently -k 'npm run server' 'npm run e2e'",
     "start": "npm run server",
-    "server": "http-server -p 3000 -a 0.0.0.0"
+    "server": "http-server -p 4000 -a 0.0.0.0 -c-1"
   },
   "private": true,
   "devDependencies": {
